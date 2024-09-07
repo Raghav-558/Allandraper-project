@@ -5,8 +5,18 @@ body {
     font-family: 'Arquitecta', sans-serif;
 }
 
+.light_grey {
+    color: #686C6B;
+}
+
+.dark_grey {
+    color: #040707CC;
+}
+
 p,
-h2 {
+h2,
+h3,
+h4 {
     margin-bottom: unset !important;
 }
 
@@ -95,12 +105,52 @@ h2 {
 }
 
 /* =====================================Section-2=========================================== */
-.sec_2_data_numbers{
+.sec_2_data_numbers {
     gap: 120px;
     padding-top: 111px;
     padding-bottom: 111px;
 }
 
+/* ==============================Section-3=========================================== */
+.sec_3_title {
+    padding-top: 154px;
+    padding-bottom: 87px;
+}
+
+.s2_ep {
+    font-weight: 900;
+    padding: 3px 10px;
+}
+
+.s2_ep_box {
+    border-radius: 55px;
+}
+
+.podcast_card_para{
+    max-width: 695px;
+}
+
+.read_more{
+    border-bottom: 2px solid black;
+    max-width: 64px;
+}
+
+.read_more:hover{
+    transform: scale(1.1);
+}
+
+.podcast_cards{
+    border: 1px solid #686C6B;
+    padding: 16px;
+    max-width: 1180px;
+}
+
+.card_play_btn{
+    cursor: pointer;
+}
+.card_play_btn:hover  path{
+    fill:#F58505;
+}
 
 /* ================================RESPONSIVE======================================= */
 @media (max-width:1199.8px) {
@@ -120,17 +170,27 @@ h2 {
     .mt_202 {
         margin-top: 150px;
     }
-        .mt_60{
-            margin-top: 90px;
-        }
+
+    .mt_60 {
+        margin-top: 90px;
+    }
 }
 
 @media (max-width:991.9px) {
     .mt_202 {
-            margin-top: 90px;
-        }
-    
-        .mt_60 {
-            margin-top: 100px;
+        margin-top: 90px;
+    }
+
+    .mt_60 {
+        margin-top: 100px;
+    }
+
+    .card_details{
+        margin-top: 20px;
+    }
+
+        .sec_3_title {
+            padding-top: 80px;
+            padding-bottom: 50px;
         }
 }
