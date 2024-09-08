@@ -1,0 +1,143 @@
+@import url('https://fonts.cdnfonts.com/css/arquitecta');
+
+* {
+    font-family: 'Arquitecta', sans-serif;
+    text-decoration: none !important;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.sec-4-min-vh {
+    min-height: 50vh;
+}
+
+/* ================================================Section-5============================================ */
+.mx-476 {
+    max-width: 476px;
+    margin: 0 auto;
+}
+
+.mx-1006 {
+    max-width: 1006px !important;
+}
+
+.sec-5-min-vh {
+    min-height: 90vh;
+}
+
+.first-card {
+    box-shadow: 0px 0px 20px 1px #00000012;
+    padding: 24px;
+}
+
+.mx-433 {
+    max-width: 433px;
+    margin: 0 auto;
+}
+
+.gray {
+    color: #686C6B;
+}
+
+.slick-track {
+    display: flex !important;
+    gap: 32px !important;
+}
+
+.sec-5 .slick-dots li {
+    transition: all 200ms linear;
+    width: 8px !important;
+    height: 8px;
+    background-color: #686C6B;
+    border-radius: 100%;
+}
+
+.sec-5 .slick-dots .slick-active {
+    background-color: #F58505 !important;
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+}
+
+.sec-5 .slick-dots li button::before {
+    content: unset !important;
+}
+
+.sec-5 .slick-dots {
+    bottom: -50px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ==========================================Section-6================================================================================= */
+.sec-6-bg-image {
+    background-image: url(/assets/images/sec-6-bg-image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-6-min-vh {
+    min-height: 70vh;
+}
+
+.mx-730 {
+    max-width: 730px;
+    margin: 0 auto;
+}
+
+.email-input {
+    border: 1px solid #686C6B;
+    background: #1D1D1D;
+    color: white;
+    padding: 12px 140px 12px 16px;
+}
+
+.input-btn {
+    padding: 10px 98px;
+    border: none;
+    transition: all 200ms linear;
+    background-color: #F58505;
+    color: white;
+}
+
+.sec-6-btn:hover {}
+
+.sec-6-btn:hover {
+    color: black;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+/* ================================================Footer================================================================== */
+.links:hover a {
+    color: #F58505 !important;
+
+    path {
+        stroke: #F58505 !important;
+    }
+}
+
+.links {
+    transition: all 200ms linear !important;
+}
+
+.footer-circle {
+    width: 35px;
+    height: 35px;
+    background: #2B2B2B;
+    border-radius: 50px;
+}
+
+/* ================================Max-width==================================== */
+@media (max-width:576px) {
+    .sm-justify-content-center {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}

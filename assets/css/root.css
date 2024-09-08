@@ -90,6 +90,7 @@
     --fc-yellow: #EEE916;
     --fc-sec-2: #1D1D1D;
     --fc-footer: #141414;
+    --fc-sec-6: #1D1D1D;
 }
 
 /* ==================================text-color================================ */
@@ -119,4 +120,8 @@
 
 .fc-footer-bg {
     background-color: var(--fc-footer);
+}
+
+.fc-sec-6-bg {
+    background-color: var(--fc-sec-6);
 }
