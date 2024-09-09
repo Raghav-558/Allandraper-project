@@ -103,6 +103,30 @@ h4 {
     color: black !important;
 }
 
+.allan_img::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #EEE916;
+    width: 494px;
+    height: 494px;
+    opacity: 50%;
+    filter: blur(170px);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+.allan_img {
+    z-index: 0;
+}
+
+/* .sec_2_data_numbers {
+    padding-top: 111px;
+    padding-bottom: 111px;
+} */
+
 /* =====================================Section-2=========================================== */
 .sec_2_data_numbers {
     gap: 120px;
@@ -388,6 +412,9 @@ h4 {
 } */
 
 @media (min-width:992px) {
+    .pt_50 {
+        padding-top: 50px !important;
+    }
     .pb_50 {
         padding-bottom: 50px !important;
     }
@@ -399,4 +426,5 @@ h4 {
     .pt_26 {
         padding-top: 26px !important;
     }
+
 }
