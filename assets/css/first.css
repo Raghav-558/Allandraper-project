@@ -281,7 +281,7 @@ h4 {
 }
 
 .mx-1006 {
-    max-width: 1006px !important;
+    max-width: 1000px !important;
 }
 
 .sec-5-min-vh {
@@ -293,8 +293,6 @@ h4 {
 .first-card {
     box-shadow: 0px 0px 20px 1px #00000012;
     padding: 24px;
-    /* box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset; */
-    /* border: 2px solid black; */
 }
 
 .mx-433 {
@@ -309,7 +307,8 @@ h4 {
 .slick-track {
     display: flex !important;
     gap: 32px !important;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .sec-5 .slick-dots li {
