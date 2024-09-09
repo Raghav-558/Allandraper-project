@@ -13,7 +13,7 @@
 
 <body>
     <!-- ====================================Nav-bar================================ -->
-    <section class="bg_image min-vh-100">
+    <section class="bg-black overflow-hidden">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <svg width="216" height="40" viewBox="0 0 216 40" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -66,21 +66,22 @@
         <!-- ===============================Hero-section====================================== -->
         <div class="container">
             <div class="row">
-                <div class="col-12 col-lg-6">
-                    <div class="hero_left ps_23 mt_202">
+                <div class="col-12 col-lg-6 pt-sm-4">
+                    <div class="hero_left ps_23 d-flex  flex-column justify-content-center h-100">
                         <h2 class="hero_title fw-bold fs-5xl text-white">Create Your Dream Life
                             through Entrepreneurship</h2>
                         <p class="hero_para fw-medium fs-xl text-white mt-3">For the Creators. I will teach you how to
                             build an extraordinary business and
                             how to build wealth without sacrificing
                             what matters most.</p>
-                        <button class="hero_btn fc-orange-bg"><a class="fw-bold fs-lg text-white text-decoration-none"
+                       <div> <button class="hero_btn fc-orange-bg"><a class="fw-bold fs-lg text-white text-decoration-none"
                                 href="#">START NOW</a></button>
+                                </div>
                     </div>
                 </div>
 
                 <div class="col-12 col-lg-6">
-                    <div class="allan_img mt_60 ps_34">
+                    <div class="allan_img mt_60 ps_34 position-relative">
                         <img width="100%" src="/assets/images/Allan.webp" alt="allan-img">
                     </div>
                 </div>
@@ -91,29 +92,35 @@
     <!-- ===============================Section-2============================================ -->
     <section class="fc-sec-2-bg">
         <div class="container">
-            <div class="sec_2_data_numbers d-flex justify-content-center flex-wrap">
-                <div class="podcast d-flex flex-column align-items-center">
-                    <p class="fw-bold fs-4xl fc-yellow pb-2">500+</p>
-                    <p class="fw-medium fs-xl text-white pb-3">Podcast appearances</p>
-                    <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line y1="1" x2="56" y2="1" stroke="#EEE916" stroke-width="2" />
-                    </svg>
+            <div class="row sec_2_data_numbers">
+                <div class=" col-12 col-md-6 col-lg-4 mb-sm-4">
+                    <div class="podcast text-center">
+                        <p class="fw-bold fs-4xl fc-yellow pb-2">500+</p>
+                        <p class="fw-medium fs-xl text-white pb-1">Podcast appearances</p>
+                        <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="1" x2="56" y2="1" stroke="#EEE916" stroke-width="2" />
+                        </svg>
+                    </div>
                 </div>
 
-                <div class="scaling d-flex flex-column align-items-center">
-                    <p class="fw-bold fs-4xl fc-grey pb-2">$100M+</p>
-                    <p class="fw-medium fs-xl text-white pb-3">Scaling my Empire</p>
-                    <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line y1="1" x2="56" y2="1" stroke="#A3CCC4" stroke-width="2" />
-                    </svg>
+                <div class="col-12 col-md-6 col-lg-4 mb-sm-4">
+                    <div class="scaling text-center">
+                        <p class="fw-bold fs-4xl fc-grey pb-2">$100M+</p>
+                        <p class="fw-medium fs-xl text-white pb-1">Scaling my Empire</p>
+                        <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="1" x2="56" y2="1" stroke="#A3CCC4" stroke-width="2" />
+                        </svg>
+                    </div>
                 </div>
 
-                <div class="partnerships d-flex flex-column align-items-center">
-                    <p class="fw-bold fs-4xl fc-orange pb-2">20</p>
-                    <p class="fw-medium fs-xl text-white pb-3">Business Partnerships</p>
-                    <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <line y1="1" x2="56" y2="1" stroke="#F58505" stroke-width="2" />
-                    </svg>
+                <div class="col-12 col-md-6 col-lg-4 mx-md-auto mb-sm-4">
+                    <div class="partnerships text-center">
+                        <p class="fw-bold fs-4xl fc-orange pb-2">20</p>
+                        <p class="fw-medium fs-xl text-white pb-1">Business Partnerships</p>
+                        <svg width="56" height="2" viewBox="0 0 56 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="1" x2="56" y2="1" stroke="#F58505" stroke-width="2" />
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
@@ -242,8 +249,10 @@
             </div>
 
             <div class="podcast_section_btns d-flex gap-3 justify-content-center flex-wrap">
-                <button class="podcast_section_btn bg-white"><a class="fw-bold fs-lg text-black text-decoration-none" href="#">BE A GUEST</a></button>
-                <button class="podcast_section_btn bg-white"><a class="fw-bold fs-lg text-black text-decoration-none" href="#">HAVE ME ON YOUR SHOW</a></button>
+                <button class="podcast_section_btn_1 fc-orange-bg"><a
+                        class="fw-bold fs-lg text-white text-decoration-none" href="#">BE A GUEST</a></button>
+                <button class="podcast_section_btn_2 bg-white"><a class="fw-bold fs-lg text-black text-decoration-none"
+                        href="#">HAVE ME ON YOUR SHOW</a></button>
             </div>
         </div>
     </section>
