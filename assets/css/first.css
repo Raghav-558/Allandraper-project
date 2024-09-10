@@ -122,11 +122,6 @@ h4 {
     z-index: 0;
 }
 
-/* .sec_2_data_numbers {
-    padding-top: 111px;
-    padding-bottom: 111px;
-} */
-
 /* =====================================Section-2=========================================== */
 .sec_2_data_numbers {
     gap: 120px;
@@ -281,7 +276,7 @@ h4 {
 }
 
 .mx-1006 {
-    max-width: 1000px !important;
+    max-width: 1006px !important;
 }
 
 .sec-5-min-vh {
@@ -354,11 +349,11 @@ h4 {
     border: 1px solid #686C6B;
     background: #1D1D1D;
     color: white;
-    padding: 12px 140px 12px 16px;
+    padding: 12px 0px 12px 16px;
 }
 
 .input-btn {
-    padding: 10px 98px;
+    padding: 10px 0px;
     border: none;
     transition: all 200ms linear;
     background-color: #F58505;
@@ -414,6 +409,7 @@ h4 {
     .pt_50 {
         padding-top: 50px !important;
     }
+
     .pb_50 {
         padding-bottom: 50px !important;
     }
@@ -427,7 +423,6 @@ h4 {
     }
 
 }
-
 
 .m_w_100 {
     max-width: 100px !important;
@@ -451,4 +446,8 @@ h4 {
 
 .m_w_118 {
     max-width: 118px !important;
+}
+
+.m_x_330 {
+    max-width: 330px !important;
 }
